@@ -131,11 +131,11 @@ function fetchData (filename) {
   fetch(filename)
     .then(r=>r.text())
     .then(text => {
-        let topics = text.split("\r\n================\r\n");
+        let topics = text.replace("\r", "").split("\r\n================\r\n");
         let topicObject = {};
         for (let i = 0; i<topics.length; i+=2) {
           let sets = topics[i+1]
-          .split("\r\n----------------\r\n");
+          .split("\n----------------\n");
 
           let setObject = {};
 
@@ -145,9 +145,7 @@ function fetchData (filename) {
             setObject[sets[j]
               .replaceAll(" ", "_")] = 
             sets[j+1]
-            .split("\r\n\r\n")
-            .map(x => x
-              .replace("\r", ""))
+            .split("\n\n")
             .map(x => x
               .split("\n")
                 .map(x => x
@@ -163,20 +161,7 @@ function fetchData (filename) {
           setObject;
         }
 
-        let pairs = text
-        .split("\r\n\r\n")
-        .map(x => x
-          .replace("\r", ""))
-        .map(x => x
-          .split("\n")
-            .map(x => x
-              .replaceAll("//", "<br>")
-              .replaceAll("##", "</ul>")
-              .replaceAll("#", "<ul>")
-              .replaceAll("**", "</li>")
-              .replaceAll("*", "<li>")));
-
         App(topicObject);
     })
 }
-fetchData("flashcards/FlashCards.txt");
+fetchData("flashcards/Flashcards.txt");
