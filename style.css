@@ -20,16 +20,19 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .answer {
   background-color: lime;
 }
-#card-text {
+.card-text {
   width: 80%;
   margin: 0 auto;
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
+}
+.text-answer {
+  text-align: left;
 }
 .button-container {
   width: 500px;
@@ -47,6 +50,11 @@ body {
   font-size: 20px;
   border: 1px solid black;
   border-radius: 5px;
+}
+.select {
+  height: 20px;
+  width: 100px;
+  font-size: 15px;
 }
 #enter {
   font-size: 15px;

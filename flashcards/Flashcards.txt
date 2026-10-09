@@ -1,3 +1,7 @@
+Biology
+================
+B4
+----------------
 Name four elements that living things take in from the environment
 Carbon, hydrogen, oxygen, nitrogen
 
@@ -5,7 +9,7 @@ How does carbon in the atmosphere enter the food chains?
 Via photosynthesis
 
 How can carbon compounds in plants end up back in the air? Describe as many ways as you can
-Burning products made from plants and animals//Burning fossil fuels//Plant respiration//Animal respiration//CO2 released from decay
+#*Burning products made from plants and animals**//*Burning fossil fuels**//*Plant respiration**//*Animal respiration**//*CO2 released from decay**##
 
 What is nitrogen fixation and what are the two main ways it can happen?
 Nitrogen fixation is the process of turning the nitrogen in the air into nitrogen compounds in the soil//It can happen by://1) Lightning -> can make nitrogen in the air react with oxygen in the air to give nitrates//2) Nitrogen-fixing bacteria in the roots and soil
@@ -23,21 +27,22 @@ What happens to the waste products and dead organisms in ecosystems?
 They are broken down by decomposers
 
 Give three factors that affect the rate of decomposition and explain how they affect it
-1) Oxygen -> many decomposers need oxygen for aerobic respiration//
+1) Oxygen -> many decomposers need oxygen for aerobic respiration//2) Temperature -> most decomposers work best in warm conditions - decomposers contain enzymes, too high they denature too low they freeze//3) Water Content -> Decomposers need water to survive, in moist conditions rate increases BUT waterlogged soils don't contatin much oxygen so BADDD D:< (rate decreases)
 
 What is meant by the terms 'population', 'community' and 'ecosystem'
+Population -> All the organisms of one species in a habitat//Community -> All the organisms (different species)//Ecosystem -> A community of organisms along with all the non-living (abiotic) conditions
 
-
-Give four resources that plants need in order to survive and reproduce. Do the same for animals
-
+Give four resources that plants need in order to survive and reproduce. Do the same for animals.
+Plants -> light, space, water and minerals (nutrients)//Animals -> space (territory), food, water and mates
 
 List four abiotic factors and give examples of how they might affect communities in ecosystems. Do the same for 2 biotic factors.
-
+Abiotic factors -> Temperature, Moisture Level, Light Intensity, pH of soil//Biotic factors -> Availability of Food, Number of Predators
 
 Explain why the populations of the predators and prey often change in cycles
-
+The population of any species is usually limited by the amount of food available//If the population of the prey increases, then so will the number of predators//If the population of predators increases, then the number of prey will decrease, and therefore, so will the number of predators
 
 What is a parasitic relationship? What is a mutualistic relationship? Give 2 examples of each
+Parasites live off a host, they take without giving back, which often harms the host e.g.//Tapeworms//Fleas//Mutualism is a relationship where both organisms benefit -> win-win relationship e.g.//Clownfish live among the poisonous tentacles of sea anemones, survive, and eat parasites that could harm the anemone//Plants are pollinated by insects, insects get a sip of nectar, and plants can reproduce
 
 
 Name the trophic levels represented in the food chain below://Grass --> Grasshopper --> Frog --> Snake
@@ -58,3 +63,21 @@ Explain why not much biomass gets transferred from one trophic level to the next
 
 What tends to be the maximum number if trophic levels you'd see in a food chain? Why?
 Give the formula for calculating the efficiency of biomass transfer
+================
+Test pando
+================
+Test chicky
+----------------
+yo
+im chicky
+
+yo
+im pando
+----------------
+Test froggi
+----------------
+yo
+im froggi
+
+yo
+im pando
