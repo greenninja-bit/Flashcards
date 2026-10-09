@@ -131,7 +131,7 @@ function fetchData (filename) {
   fetch(filename)
     .then(r=>r.text())
     .then(text => {
-        let topics = text.replace("\r", "").split("\r\n================\r\n");
+        let topics = text.replace("\r", "").split("\n================\n");
         let topicObject = {};
         for (let i = 0; i<topics.length; i+=2) {
           let sets = topics[i+1]
