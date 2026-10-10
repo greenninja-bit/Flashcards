@@ -6,18 +6,16 @@ function App (data) {
   const forward_button = document.getElementById("forward-button");
   const topic_navigation = document.getElementById("topic-name");
   const set_navigation = document.getElementById("cards-name");
-  const enter_button = document.getElementById("enter");
-  let current_topic = "Biology";
-  let current_set = "B4";
+  //const enter_button = document.getElementById("enter");
+  let current_topic = "Welcome!";
+  let current_set = "Welcome!";
   let current_index = 0;
   let question = true;
   let current_data = data[current_topic][current_set];
   card.classList.remove("answer");
   text.classList.remove("text-answer");
   
-  text.innerHTML = question ? current_data[current_index][0] : current_data[current_index][1];
-  topic_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
-  set_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
+  text.innerHTML = question ? current_data[current_index][0] : current_data;
   number.innerText = `${current_index+1}/${current_data.length}`;
 
   if (current_index == 0) { back_button.disabled = true; }
@@ -25,7 +23,7 @@ function App (data) {
   if (current_index == current_data.length-1) { forward_button.disabled = true; }
   else { forward_button.disabled = false; }
 
-  OnClickSetup(data, text, number, card, back_button, forward_button, topic_navigation, set_navigation, enter_button, current_topic, current_set, current_index, question, current_data);
+  OnClickSetup(data, text, number, card, back_button, forward_button, topic_navigation, set_navigation, current_topic, current_set, current_index, question, current_data);
   AddOptions(data, topic_navigation, set_navigation, current_topic, current_set);
 
   AddListeners(card, back_button, forward_button);
@@ -46,14 +44,14 @@ function AddListeners (card, back_button, forward_button) {
     {
       card.onclick();
     }
-    if (event.key == "Enter")
+    /*if (event.key == "Enter")
     {
       enter_button.onclick();
-    }
+    }*/
   })
 }
 
-function OnClickSetup(data, text, number, card, back_button, forward_button, topic_navigation, set_navigation, enter_button, current_topic, current_set, current_index, question, current_data) {
+function OnClickSetup(data, text, number, card, back_button, forward_button, topic_navigation, set_navigation, current_topic, current_set, current_index, question, current_data) {
   card.onclick = () => {
     question = !question;
     card.classList.toggle("answer");
@@ -92,7 +90,7 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
     console.log(topic_navigation.value)
     AddOptions(data, topic_navigation, set_navigation, topic_navigation.value, "");
   }
-  enter_button.onclick = () => {
+  /*enter_button.onclick = () => {
     current_topic = topic_navigation.value;
     current_set = set_navigation.value;
     current_index = 0;
@@ -101,18 +99,33 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
     card.classList.remove("answer");
     text.classList.remove("text-answer");
     
-    text.innerHTML = question ? current_data[current_index][0] : current_data[current_index][1];
-    topic_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
-    set_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
-    number.innerText = `${current_index+1}/${current_data.length}`;
+    text.innerHTML = current_data[current_index][0];
+    number.innerText = `1/${current_data.length}`;
 
-    if (current_index == 0) { back_button.disabled = true; }
-    else { back_button.disabled = false; }
+    back_button.disabled = true;
     if (current_index == current_data.length-1) { forward_button.disabled = true; }
     else { forward_button.disabled = false; }
 
     AddOptions(data, topic_navigation, set_navigation, current_topic, current_set);
-  };
+  };*/
+  set_navigation.onchange = () => {
+    current_topic = topic_navigation.value;
+    current_set = set_navigation.value;
+    current_index = 0;
+    question = true;
+    current_data = data[current_topic][current_set];
+    card.classList.remove("answer");
+    text.classList.remove("text-answer");
+    
+    text.innerHTML = current_data[current_index][0];
+    number.innerText = `1/${current_data.length}`;
+
+    back_button.disabled = true;
+    if (current_index == current_data.length-1) { forward_button.disabled = true; }
+    else { forward_button.disabled = false; }
+
+    AddOptions(data, topic_navigation, set_navigation, current_topic, current_set);
+  }
 }
 
 function AddOptions(data, topic_navigation, set_navigation, current_topic, current_set) {
@@ -131,9 +144,11 @@ function fetchData (filename) {
   fetch(filename)
     .then(r=>r.text())
     .then(text => {
-        let topics = text.replace("\r", "").split("\n================\n");
+        let topics = text.replaceAll("\r", "").split("\n================\n");
+        console.log(topics);
         let topicObject = {};
         for (let i = 0; i<topics.length; i+=2) {
+          console.log(topics[i+1])
           let sets = topics[i+1]
           .split("\n----------------\n");
 
@@ -145,11 +160,12 @@ function fetchData (filename) {
             setObject[sets[j]
               .replaceAll(" ", "_")] = 
             sets[j+1]
-            .split("\n\n")
+            .split("\n\n\n")
             .map(x => x
-              .split("\n")
+              .split("\n\n")
                 .map(x => x
-                  .replaceAll("//", "<br>")
+                  .replaceAll("---\n", "")
+                  .replaceAll("\n", "<br>")
                   .replaceAll("##", "</ul>")
                   .replaceAll("#", "<ul>")
                   .replaceAll("**", "</li>")

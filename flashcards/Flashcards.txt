@@ -1,64 +1,143 @@
+Welcome!
+================
+Welcome!
+----------------
+Welcome!
+
+Enjoy! :D
+
+
+W Home screen right?
+
+...right?
+================
 Biology
 ================
 B4
 ----------------
 Name four elements that living things take in from the environment
-Carbon, hydrogen, oxygen, nitrogen
+
+#*Carbon***hydrogen***oxygen***nitrogen**##
+
 
 How does carbon in the atmosphere enter the food chains?
+
 Via photosynthesis
 
+
 How can carbon compounds in plants end up back in the air? Describe as many ways as you can
-#*Burning products made from plants and animals**//*Burning fossil fuels**//*Plant respiration**//*Animal respiration**//*CO2 released from decay**##
+
+#---
+*Burning products made from plants and animals**---
+*Burning fossil fuels**---
+*Plant respiration**---
+*Animal respiration**---
+*CO2 released from decay**---
+##
+
 
 What is nitrogen fixation and what are the two main ways it can happen?
-Nitrogen fixation is the process of turning the nitrogen in the air into nitrogen compounds in the soil//It can happen by://1) Lightning -> can make nitrogen in the air react with oxygen in the air to give nitrates//2) Nitrogen-fixing bacteria in the roots and soil
+
+Nitrogen fixation is the process of turning the nitrogen in the air into nitrogen compounds in the soil
+It can happen by:
+#*Lightning -> can make nitrogen in the air react with oxygen in the air to give nitrates**---
+*Nitrogen-fixing bacteria in the roots and soil**---
+#
+
 
 Describe the roles of four different types of bacteria in the nitrogen cycle
-1) Decomposers -> decompose proteins and urea and turn them into ammonia, which goes on to form ammonium ions//2) Nitrifying bacteria -> turn ammonium ions in decaying matter into nitrates//3) Nitrogen-fixing bacteria -> turn atmospheric N2 into nitrogen compounds that plants can use//4) Denitrifying bacteria -> turn nitrates back into N2 gas BADDDD D:< found in waterlogged soils pandoooooooo
+
+#---
+*Decomposers -> decompose proteins and urea and turn them into ammonia, which goes on to form ammonium ions**---
+*Nitrifying bacteria -> turn ammonium ions in decaying matter into nitrates**---
+*Nitrogen-fixing bacteria -> turn atmospheric N2 into nitrogen compounds that plants can use***---
+*Denitrifying bacteria -> turn nitrates back into N2 gas BADDDD D:< found in waterlogged soils pandoooooooo**---
+#
+
 
 Explain the role of legume plants in the nitrogen cycle
+
 Nitrogen-fixing bacteria live in the roots of legume plants
 
+
 Describe the four main processes in the water cycle.
-1) Evaporation -> the sun makes water evaporate from the land and sea, turning it into water vapour//2) Transpiration -> water evaporates out of the stomata of leaves//3) Condensation -> water vapour cools and condenses to form clouds//4) Precipitation -> water falls from the clouds and is returned to the land and sea
+
+1) Evaporation -> the sun makes water evaporate from the land and sea, turning it into water vapour
+2) Transpiration -> water evaporates out of the stomata of leaves
+3) Condensation -> water vapour cools and condenses to form clouds
+4) Precipitation -> water falls from the clouds and is returned to the land and sea
+
 
 What happens to the waste products and dead organisms in ecosystems?
+
 They are broken down by decomposers
 
+
 Give three factors that affect the rate of decomposition and explain how they affect it
-1) Oxygen -> many decomposers need oxygen for aerobic respiration//2) Temperature -> most decomposers work best in warm conditions - decomposers contain enzymes, too high they denature too low they freeze//3) Water Content -> Decomposers need water to survive, in moist conditions rate increases BUT waterlogged soils don't contatin much oxygen so BADDD D:< (rate decreases)
+
+1) Oxygen -> many decomposers need oxygen for aerobic respiration
+2) Temperature -> most decomposers work best in warm conditions - decomposers contain enzymes, too high they denature too low they freeze
+3) Water Content -> Decomposers need water to survive, in moist conditions rate increases BUT waterlogged soils don't contatin much oxygen so BADDD D:< (rate decreases)
+
 
 What is meant by the terms 'population', 'community' and 'ecosystem'
-Population -> All the organisms of one species in a habitat//Community -> All the organisms (different species)//Ecosystem -> A community of organisms along with all the non-living (abiotic) conditions
+
+Population -> All the organisms of one species in a habitat
+Community -> All the organisms (different species)
+Ecosystem -> A community of organisms along with all the non-living (abiotic) conditions
+
 
 Give four resources that plants need in order to survive and reproduce. Do the same for animals.
-Plants -> light, space, water and minerals (nutrients)//Animals -> space (territory), food, water and mates
+
+Plants -> light, space, water and minerals (nutrients)
+Animals -> space (territory), food, water and mates
+
 
 List four abiotic factors and give examples of how they might affect communities in ecosystems. Do the same for 2 biotic factors.
-Abiotic factors -> Temperature, Moisture Level, Light Intensity, pH of soil//Biotic factors -> Availability of Food, Number of Predators
+
+Abiotic factors -> Temperature, Moisture Level, Light Intensity, pH of soil
+Biotic factors -> Availability of Food, Number of Predators
+
 
 Explain why the populations of the predators and prey often change in cycles
-The population of any species is usually limited by the amount of food available//If the population of the prey increases, then so will the number of predators//If the population of predators increases, then the number of prey will decrease, and therefore, so will the number of predators
+
+The population of any species is usually limited by the amount of food available
+If the population of the prey increases, then so will the number of predators
+If the population of predators increases, then the number of prey will decrease, and therefore, so will the number of predators
+
 
 What is a parasitic relationship? What is a mutualistic relationship? Give 2 examples of each
-Parasites live off a host, they take without giving back, which often harms the host e.g.//Tapeworms//Fleas//Mutualism is a relationship where both organisms benefit -> win-win relationship e.g.//Clownfish live among the poisonous tentacles of sea anemones, survive, and eat parasites that could harm the anemone//Plants are pollinated by insects, insects get a sip of nectar, and plants can reproduce
+
+Parasites live off a host, they take without giving back, which often harms the host e.g.
+Tapeworms
+Fleas
+Mutualism is a relationship where both organisms benefit -> win-win relationship e.g.
+Clownfish live among the poisonous tentacles of sea anemones, survive, and eat parasites that could harm the anemone
+Plants are pollinated by insects, insects get a sip of nectar, and plants can reproduce
 
 
-Name the trophic levels represented in the food chain below://Grass --> Grasshopper --> Frog --> Snake
+
+Name the trophic levels represented in the food chain below:
+Grass --> Grasshopper --> Frog --> Snake
+
 
 
 In the food chain show in the previous card, suggest what effects a decline in the population of frogs might have on the rest of the food chain.
 
 
+
 What is a food web?
 
 
-What is the difference between a pyramid of numbers and a pyramid of biomass?//Why might they not be the same shape for the same food chain?
+
+What is the difference between a pyramid of numbers and a pyramid of biomass?
+Why might they not be the same shape for the same food chain?
+
 
 
 How to plants make glucose? Give two ways it then gets used.
 Explain why not much biomass gets transferred from one trophic level to the next
+
 
 
 What tends to be the maximum number if trophic levels you'd see in a food chain? Why?
@@ -69,15 +148,21 @@ Test pando
 Test chicky
 ----------------
 yo
+
 im chicky
 
+
 yo
+
 im pando
 ----------------
 Test froggi
 ----------------
 yo
+
 im froggi
 
+
 yo
+
 im pando

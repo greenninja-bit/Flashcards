@@ -48,15 +48,20 @@ body {
   height: 40px;
   width: 40px;
   font-size: 20px;
+  background-color: rgb(230, 230, 230);
   border: 1px solid black;
   border-radius: 5px;
+  transition: background-color 0.1s;
+}
+.button:hover {
+  background-color: rgb(210, 210, 210);
+  border: 2px solid black;
+}
+.button:focus {
+  background-color: rgb(190, 190, 190);
 }
 .select {
-  height: 20px;
-  width: 100px;
+  height: 40px;
+  width: 150px;
   font-size: 15px;
-}
-#enter {
-  font-size: 15px;
-  width: 50px;
 }
