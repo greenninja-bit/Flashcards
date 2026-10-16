@@ -27,6 +27,7 @@ body {
 }
 .card-text {
   width: 80%;
+  height: fit-content;
   margin: 0 auto;
   font-size: 20px;
   text-align: center;
@@ -57,7 +58,7 @@ body {
   background-color: rgb(210, 210, 210);
   border: 2px solid black;
 }
-.button:focus {
+.button:active {
   background-color: rgb(190, 190, 190);
 }
 .select {

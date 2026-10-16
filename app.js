@@ -7,15 +7,15 @@ function App (data) {
   const topic_navigation = document.getElementById("topic-name");
   const set_navigation = document.getElementById("cards-name");
   //const enter_button = document.getElementById("enter");
-  let current_topic = "Welcome!";
-  let current_set = "Welcome!";
+  let current_topic = "Biology";//"Welcome!";
+  let current_set = "B4";//"Welcome!";
   let current_index = 0;
   let question = true;
   let current_data = data[current_topic][current_set];
   card.classList.remove("answer");
   text.classList.remove("text-answer");
   
-  text.innerHTML = question ? current_data[current_index][0] : current_data;
+  SetText(text, question, current_data, current_index);
   number.innerText = `${current_index+1}/${current_data.length}`;
 
   if (current_index == 0) { back_button.disabled = true; }
@@ -27,6 +27,15 @@ function App (data) {
   AddOptions(data, topic_navigation, set_navigation, current_topic, current_set);
 
   AddListeners(card, back_button, forward_button);
+}
+
+function SetText(text, question, current_data, current_index) {
+  text.innerHTML = question ? current_data[current_index][0] : current_data[current_index][1];
+  console.log((question ? current_data[current_index][0] : current_data[current_index][1]));
+  if ((question ? current_data[current_index][0] : current_data[current_index][1]).includes("</math>")) {text.style.width = "fit-content";}
+  else if ((question ? current_data[current_index][0] : current_data[current_index][1]).length > 350) {text.style.width = "95%";}
+  else if ((question ? current_data[current_index][0] : current_data[current_index][1]).length > 250) {text.style.width = "90%";}
+  else {text.style.width = "80%";}
 }
 
 function AddListeners (card, back_button, forward_button) {
@@ -57,7 +66,7 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
     card.classList.toggle("answer");
     text.classList.toggle("text-answer");
     
-    text.innerHTML = question ? current_data[current_index][0] : current_data[current_index][1];
+    SetText(text, question, current_data, current_index);
   };
   back_button.onclick = () => {
     //console.log(back_button.disabled);
@@ -69,7 +78,7 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
     else { back_button.disabled = false; }
     if (current_index == current_data.length-1) { forward_button.disabled = true; }
     else { forward_button.disabled = false; }
-    text.innerHTML = question ? current_data[current_index][0] : current_data[current_index][1];
+    SetText(text, question, current_data, current_index);
     number.innerText = `${current_index+1}/${current_data.length}`
   };
   forward_button.onclick = () => {
@@ -83,7 +92,7 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
     else { back_button.disabled = false; }
     if (current_index == current_data.length-1) { forward_button.disabled = true; }
     else { forward_button.disabled = false; }
-    text.innerHTML = question ? current_data[current_index][0] : current_data[current_index][1];
+    SetText(text, question, current_data, current_index);
     number.innerText = `${current_index+1}/${current_data.length}`
   };
   topic_navigation.onchange = () => {
@@ -164,12 +173,24 @@ function fetchData (filename) {
             .map(x => x
               .split("\n\n")
                 .map(x => x
+                  .replaceAll("/b", "<b>")
+                  .replaceAll("b/", "</b>")
+                  .replaceAll("/#", "<ul>")
+                  .replaceAll("/*", "<li>")
+                  .replaceAll("*/\n", "</li>")
+                  .replaceAll("#/", "</ul>")
+                  .replaceAll("/f", "<math display=block><mi>")
+                  .replaceAll("/=/", "=</mi><mfrac><mi>")
+                  .replaceAll("///", "</mi><mi>")
+                  .replaceAll("f/", "</mi></mfrac></math>")
+                  .replaceAll("/img", "<img style='max-width:300px' src=")
+                  .replaceAll("img/", "&quot>")
+                  .replaceAll("'/'", "/")
                   .replaceAll("---\n", "")
-                  .replaceAll("\n", "<br>")
-                  .replaceAll("##", "</ul>")
-                  .replaceAll("#", "<ul>")
-                  .replaceAll("**", "</li>")
-                  .replaceAll("*", "<li>")));
+                  .replaceAll("\n", "<br>")));
+            
+            console.log(setObject[sets[j]
+              .replaceAll(" ", "_")])
           }
           //console.log(topics[i])
           topicObject[topics[i]
