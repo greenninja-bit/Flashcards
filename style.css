@@ -2,6 +2,21 @@ body {
   margin:0px;
   padding:0px;
   font-family: sans-serif;
+  --bg-color: rgb(50, 50, 50);
+  background-color: var(--bg-color);
+  --text-color: white;
+  color: var(--text-color);
+}
+.light {
+  --bg-color: white;
+  background-color: var(--bg-color);
+  --text-color: black;
+  color: var(--text-color);
+}
+.dark {
+  position: absolute;
+  left: 50px;
+  top: 40px;
 }
 .container {
   width: 100vw;
@@ -26,6 +41,8 @@ body {
   background-color: lime;
 }
 .card-text {
+  background-color: transparent;
+  color: black;
   width: 80%;
   height: fit-content;
   margin: 0 auto;
@@ -62,7 +79,13 @@ body {
   background-color: rgb(190, 190, 190);
 }
 .select {
+  background-color: inherit;
+  color: inherit;
   height: 40px;
   width: 150px;
   font-size: 15px;
+}
+.select .option {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }

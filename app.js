@@ -7,8 +7,8 @@ function App (data) {
   const topic_navigation = document.getElementById("topic-name");
   const set_navigation = document.getElementById("cards-name");
   //const enter_button = document.getElementById("enter");
-  let current_topic = "Biology";//"Welcome!";
-  let current_set = "B4";//"Welcome!";
+  let current_topic = "Welcome!";//"Welcome!";
+  let current_set = "Welcome!";//"Welcome!";
   let current_index = 0;
   let question = true;
   let current_data = data[current_topic][current_set];
@@ -119,10 +119,18 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
   };*/
   set_navigation.onchange = () => {
     current_topic = topic_navigation.value;
-    current_set = set_navigation.value;
+    //current_set = set_navigation.value;
     current_index = 0;
     question = true;
-    current_data = data[current_topic][current_set];
+    current_set = Array.from(set_navigation.options) // Convert options to an array
+      .filter(option => option.selected)      // Filter selected options
+      .map(option => option.value);           // Map to an array of values
+    console.log(current_set);
+    //var val = (selectedValues.map(x => data[x])); // Logs the selected values
+    //console.log(val[0].concat(val.slice(1)))
+    //console.log(val.flat())
+    current_data = current_set.map(x => data[current_topic][x]).flat();
+    //current_data = data[current_topic][current_set];
     card.classList.remove("answer");
     text.classList.remove("text-answer");
     
@@ -133,19 +141,32 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
     if (current_index == current_data.length-1) { forward_button.disabled = true; }
     else { forward_button.disabled = false; }
 
-    AddOptions(data, topic_navigation, set_navigation, current_topic, current_set);
+    //AddOptions(data, topic_navigation, set_navigation, current_topic, current_set);
   }
 }
 
-function AddOptions(data, topic_navigation, set_navigation, current_topic, current_set) {
-  topic_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
-  set_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
+function AddOptions(data, topic_navigation, set_navigation, current_topic, current_set, first=true) {
+  if (first)
+  {
+    //topic_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
+    topic_navigation.innerHTML = "";
+    //set_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
+    set_navigation.innerHTML = "";
+    set_navigation.value = null;
+  }
   for (let topic in data) {
     //console.log(topic);
-    topic_navigation.innerHTML += `<option value=${topic}${(topic == current_topic) ? " selected=&quotaelected&quot" :""}>${topic.replaceAll("_", " ")}</option>`
+    topic_navigation.innerHTML += `<option value=${topic}${(topic == current_topic) ? " selected=&quotaelected&quot" :""} class="option">${topic.replaceAll("_", " ")}</option>`
   }
   for (let set in data[current_topic]) {
-    set_navigation.innerHTML += `<option value=${set}${(set == current_set) ? " selected=&quotaelected&quot" :""}>${set.replaceAll("_", " ")}</option>`
+    if (current_set != "")
+    {
+      set_navigation.innerHTML += `<option value=${set}${(set == current_set) ? " selected=&quotaelected&quot" :""} class="option">${set.replaceAll("_", " ")}</option>`
+    }
+    else 
+    {
+      set_navigation.innerHTML += `<option value=${set} class="option">${set.replaceAll("_", " ")}</option>`
+    }
   }
 }
 
@@ -153,7 +174,7 @@ function fetchData (filename) {
   fetch(filename)
     .then(r=>r.text())
     .then(text => {
-        let topics = text.replaceAll("\r", "").split("\n================\n");
+        let topics = text.replaceAll("\r", "").replaceAll("  ", "").split("\n================\n");
         console.log(topics);
         let topicObject = {};
         for (let i = 0; i<topics.length; i+=2) {
@@ -173,14 +194,14 @@ function fetchData (filename) {
             .map(x => x
               .split("\n\n")
                 .map(x => x
-                  .replaceAll("/b", "<b>")
-                  .replaceAll("b/", "</b>")
-                  .replaceAll("/#", "<ul>")
-                  .replaceAll("/*", "<li>")
-                  .replaceAll("*/\n", "</li>")
-                  .replaceAll("#/", "</ul>")
+                  .replaceAll("<bold", "<b>")
+                  .replaceAll("bold>", "</b>")
+                  .replaceAll("<#", "<ul>")
+                  .replaceAll("<*", "<li>")
+                  .replaceAll("*>\n", "</li>")
+                  .replaceAll("#>", "</ul>")
                   .replaceAll("/f", "<math display=block><mi>")
-                  .replaceAll("/=/", "=</mi><mfrac><mi>")
+                  .replaceAll("/=/", " = </mi><mfrac><mi>")
                   .replaceAll("///", "</mi><mi>")
                   .replaceAll("f/", "</mi></mfrac></math>")
                   .replaceAll("/img", "<img style='max-width:300px' src=")

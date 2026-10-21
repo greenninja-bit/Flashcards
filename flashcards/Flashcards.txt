@@ -1,203 +1,235 @@
 Welcome!
 ================
-Welcome!
-----------------
-Welcome!
+  Welcome!
+  ----------------
+    Welcome!
 
-Enjoy! :D
+    Enjoy! :D
 
 
-W Home screen right?
+    Cool Home screen right?
 
-...right?
+    ...right?
 ================
 Biology
 ================
-B4
-----------------
-Name four elements that living things take in from the environment
+  B4
+  ----------------
+    Name four elements that living things take in from the environment
 
-/#/*Carbon*/
-/*hydrogen*/
-/*oxygen*/
-/*nitrogen*/
-#/
-
-
-How does carbon in the atmosphere enter the food chains?
-
-Via /bphotosynthesisb/
+    <#<*Carbon*>
+    <*hydrogen*>
+    <*oxygen*>
+    <*nitrogen*>
+    #>
 
 
-How can carbon compounds in plants end up back in the air? Describe as many ways as you can
+    How does carbon in the atmosphere enter the food chains?
 
-/#---
-/*Burning products made from plants and animals*/
-/*Burning fossil fuels*/
-/*Plant respiration*/
-/*Animal respiration*/
-/*CO2 released from decay*/
-#/
+    Via <boldphotosynthesisbold>
 
 
-What is nitrogen fixation and what are the two main ways it can happen?
+    How can carbon compounds in plants end up back in the air? Describe as many ways as you can
 
-Nitrogen fixation is the process of turning the nitrogen in the air into nitrogen compounds in the soil
-It can happen by:
-/#/*/bLightningb/ -> can make nitrogen in the air react with oxygen in the air to give nitrates*/
-/*/bNitrogen-fixing bacteriab/ in the roots and soil*/
-/#
-
-
-Describe the roles of four different types of bacteria in the nitrogen cycle
-
-/#---
-/*/bDecomposersb/ -> decompose proteins and urea and turn them into ammonia, which goes on to form ammonium ions*/
-/*/bNitrifying bacteriab/ -> turn ammonium ions in decaying matter into nitrates*/
-/*/bNitrogen-fixing bacteriab/ -> turn atmospheric N2 into nitrogen compounds that plants can use*/
-/*/bDenitrifying bacteriab/ -> turn nitrates back into N2 gas BADDDD D:< found in waterlogged soils pandoooooooo*/
-#/
+    <#---
+    <*Burning products made from plants and animals*>
+    <*Burning fossil fuels*>
+    <*Plant respiration*>
+    <*Animal respiration*>
+    <*CO2 released from decay*>
+    #>
 
 
-Explain the role of legume plants in the nitrogen cycle
+    What is nitrogen fixation and what are the two main ways it can happen?
 
-Nitrogen-fixing bacteria live in the roots of legume plants
-
-
-Describe the four main processes in the water cycle.
-
-1) Evaporation -> the sun makes water evaporate from the land and sea, turning it into water vapour
-2) Transpiration -> water evaporates out of the stomata of leaves
-3) Condensation -> water vapour cools and condenses to form clouds
-4) Precipitation -> water falls from the clouds and is returned to the land and sea
+    Nitrogen fixation is the process of turning the nitrogen in the air into nitrogen compounds in the soil
+    It can happen by:
+    <#<*<boldLightningbold> -> can make nitrogen in the air react with oxygen in the air to give nitrates*>
+    <*<boldNitrogen-fixing bacteriabold> in the roots and soil*>
+    <#
 
 
-What happens to the waste products and dead organisms in ecosystems?
+    Describe the roles of four different types of bacteria in the nitrogen cycle
 
-They are broken down by decomposers
-
-
-Give three factors that affect the rate of decomposition and explain how they affect it
-
-/#/*Oxygen -> many decomposers need oxygen for aerobic respiration*/
-/*Temperature -> most decomposers work best in warm conditions - decomposers contain enzymes, too high they denature too low they freeze*/
-/*Water Content -> Decomposers need water to survive, in moist conditions rate increases BUT waterlogged soils don't contatin much oxygen so BADDD D:< (rate decreases)*/
-#/
+    <#---
+    <*<boldDecomposersbold> -> decompose proteins and urea and turn them into ammonia, which goes on to form ammonium ions*>
+    <*<boldNitrifying bacteriabold> -> turn ammonium ions in decaying matter into nitrates*>
+    <*<boldNitrogen-fixing bacteriabold> -> turn atmospheric N2 into nitrogen compounds that plants can use*>
+    <*<boldDenitrifying bacteriabold> -> turn nitrates back into N2 gas BADDDD D:< found in waterlogged soils pandoooooooo*>
+    #>
 
 
-What is meant by the terms 'population', 'community' and 'ecosystem'
+    Explain the role of legume plants in the nitrogen cycle
 
-/bPopulationb/ -> All the organisms of one species in a habitat
-Community -> All the organisms (different species)
-Ecosystem -> A community of organisms along with all the non-living (abiotic) conditions
+    Nitrogen-fixing bacteria live in the roots of legume plants
 
 
-Give four resources that plants need in order to survive and reproduce. Do the same for animals.
+    Describe the four main processes in the water cycle.
 
-/bPlantsb/ -> light, space, water and minerals (nutrients)
-/bAnimalsb/ -> space (territory), food, water and mates
-
-
-List four abiotic factors and give examples of how they might affect communities in ecosystems. Do the same for 2 biotic factors.
-
-Abiotic factors -> Temperature, Moisture Level, Light Intensity, pH of soil
-Biotic factors -> Availability of Food, Number of Predators
+    1) Evaporation -> the sun makes water evaporate from the land and sea, turning it into water vapour
+    2) Transpiration -> water evaporates out of the stomata of leaves
+    3) Condensation -> water vapour cools and condenses to form clouds
+    4) Precipitation -> water falls from the clouds and is returned to the land and sea
 
 
-Explain why the populations of the predators and prey often change in cycles
+    What happens to the waste products and dead organisms in ecosystems?
 
-The population of any species is usually limited by the amount of food available
-If the population of the prey increases, then so will the number of predators
-If the population of predators increases, then the number of prey will decrease, and therefore, so will the number of predators
+    They are broken down by decomposers
 
 
-What is a parasitic relationship? What is a mutualistic relationship? Give 2 examples of each
+    Give three factors that affect the rate of decomposition and explain how they affect it
 
-Parasites live off a host, they take without giving back, which often harms the host e.g:
-/#/*Tapeworms*/
-/*Fleas*/
-#/---
-Mutualism is a relationship where both organisms benefit -> win-win relationship e.g:
-/#/*Clownfish live among the poisonous tentacles of sea anemones, survive, and eat parasites that could harm the anemone*/
-/*Plants are pollinated by insects, insects get a sip of nectar, and plants can reproduce*/
-#/
+    <#<*Oxygen -> many decomposers need oxygen for aerobic respiration*>
+    <*Temperature -> most decomposers work best in warm conditions - decomposers contain enzymes, too high they denature too low they freeze*>
+    <*Water Content -> Decomposers need water to survive, in moist conditions rate increases BUT waterlogged soils don't contatin much oxygen so BADDD D:< (rate decreases)*>
+    #>
 
 
-Name the trophic levels represented in the food chain below:
-Grass --> Grasshopper --> Frog --> Snake
+    What is meant by the terms 'population', 'community' and 'ecosystem'
 
-Producer --> Primary Consumer --> Secondary Consumer --> Tertiary Consumer
-
-
-In the food chain show in the previous card, suggest what effects a decline in the population of frogs might have on the rest of the food chain.
-
-/#/*/bGrasshopperb/ population -> /bIncreaseb/*/
-/*/bGrassb/ population -> /bDecreaseb/*/
-/*/bSnakeb/ population -> /bDecreaseb/*/
-#/
+    <boldPopulationbold> -> All the organisms of one species in a habitat
+    Community -> All the organisms (different species)
+    Ecosystem -> A community of organisms along with all the non-living (abiotic) conditions
 
 
-What is a food web?
-A way to show lots of different interdependent food chains
+    Give four resources that plants need in order to survive and reproduce. Do the same for animals.
+
+    <boldPlantsbold> -> light, space, water and minerals (nutrients)
+    <boldAnimalsbold> -> space (territory), food, water and mates
 
 
-What is the difference between a pyramid of numbers and a pyramid of biomass?
-Why might they not be the same shape for the same food chain?
+    List four abiotic factors and give examples of how they might affect communities in ecosystems. Do the same for 2 biotic factors.
 
-Each bar on a pyramid of numbers shows the number of organisms at that stage of the food chain, whereas pyramids of biomass show their mass
-One prey could feed multiple predators
-
-
-How to plants make glucose? Give two ways it then gets used.
-
-Plants make glucose via /bphotosynthesisb/ and use it to:
-/#/*/bMake food (glucose)b/*/
-/*/bMake biological molecules (e.g. cellulose)b/*/
-#/
+    Abiotic factors -> Temperature, Moisture Level, Light Intensity, pH of soil
+    Biotic factors -> Availability of Food, Number of Predators
 
 
-Explain why not much biomass gets transferred from one trophic level to the next
+    Explain why the populations of the predators and prey often change in cycles
 
-/#/*Animals use some of the biomass they consume for respiration*/
-/*Biomass is also lost from the food chain through:
-/#/*/bExcretionb/ -> getting rid of undigesteed food (i.e. animal's faeces)*/
-/*/bEgestionb/ -> getting rid of waste products from chemical reactions in the body (e.g. sweating, urinating, breathing out)*/
-*/
-#/---
-#/
+    The population of any species is usually limited by the amount of food available
+    If the population of the prey increases, then so will the number of predators
+    If the population of predators increases, then the number of prey will decrease, and therefore, so will the number of predators
 
 
-What tends to be the maximum number of trophic levels you'd see in a food chain? Why?
+    What is a parasitic relationship? What is a mutualistic relationship? Give 2 examples of each
 
-5, because so much biomass is lost at each stage that it isn't enough to support organisms after that many stages
+    Parasites live off a host, they take without giving back, which often harms the host e.g:
+    <#<*Tapeworms*>
+    <*Fleas*>
+    #>---
+    Mutualism is a relationship where both organisms benefit -> win-win relationship e.g:
+    <#<*Clownfish live among the poisonous tentacles of sea anemones, survive, and eat parasites that could harm the anemone*>
+    <*Plants are pollinated by insects, insects get a sip of nectar, and plants can reproduce*>
+    #>
 
 
-Give the formula for calculating the efficiency of biomass transfer
+    Name the trophic levels represented in the food chain below:
+    Grass --> Grasshopper --> Frog --> Snake
 
-/fefficiecy/=/---
-biomass available to the next level///---
-biomass that was available to the previous levelf/
+    Producer --> Primary Consumer --> Secondary Consumer --> Tertiary Consumer
+
+
+    In the food chain show in the previous card, suggest what effects a decline in the population of frogs might have on the rest of the food chain.
+
+    <#<*<boldGrasshopperbold> population -> <boldIncreasebold>*>
+    <*<boldGrassbold> population -> <boldDecreasebold>*>
+    <*<boldSnakebold> population -> <boldDecreasebold>*>
+    #>
+
+
+    What is a food web?
+    
+    A way to show lots of different interdependent food chains
+
+
+    What is the difference between a pyramid of numbers and a pyramid of biomass?
+    Why might they not be the same shape for the same food chain?
+
+    Each bar on a pyramid of numbers shows the number of organisms at that stage of the food chain, whereas pyramids of biomass show their mass
+    One prey could feed multiple predators
+
+
+    How to plants make glucose? Give two ways it then gets used.
+
+    Plants make glucose via <boldphotosynthesisbold> and use it to:
+    <#<*<boldMake food (glucose)bold>*>
+    <*<boldMake biological molecules (e.g. cellulose)bold>*>
+    #>
+
+
+    Explain why not much biomass gets transferred from one trophic level to the next
+
+    <#<*Animals use some of the biomass they consume for respiration*>
+    <*Biomass is also lost from the food chain through:
+    <#<*<boldExcretionbold> -> getting rid of undigesteed food (i.e. animal's faeces)*>
+    <*<boldEgestionbold> -> getting rid of waste products from chemical reactions in the body (e.g. sweating, urinating, breathing out)*>
+    *>
+    #>---
+    #>
+
+
+    What tends to be the maximum number of trophic levels you'd see in a food chain? Why?
+
+    5, because so much biomass is lost at each stage that it isn't enough to support organisms after that many stages
+
+
+    Give the formula for calculating the efficiency of biomass transfer
+
+    /fefficiecy/=/---
+    biomass available to the next level///---
+    biomass that was available to the previous levelf/
+================
+Geography
+================
+  Rio de Janeiro
+  ----------------
+    Where is Rio de Janeiro located and what is it's population?
+
+    Brazil’s second-most populated city
+    <#<*6.5 million people in the city*>
+    <*12.5 million in the urban area*>
+    #>In <boldsoutheast Brazilbold>, on the <boldAtlantic coastbold>, around <boldGuanabara Baybold>
+
+
+    What is the <boldregional importancebold> of Rio de Janeiro
+
+    <#<*Provides essential services such as <boldschools, hospitals and universitiesbold>*>
+    <*A <boldculturalbold> and <boldtransport hubbold> -> <boldinternational airportbold> and <bolddock facilitating tradebold>*>
+    #>
+
+
+    What is the <boldnational importancebold> of Rio de Janeiro
+
+    <#<*Headquarters of Brazils largest companies (mining, oil, telocommunications)*>
+    <*Leading centre for industries such as <boldclothingbold>, <boldprocessed foodbold> and <boldpharmaceuticalsbold>*>
+    <*<bold5%bold> of Brazil's GDP*>
+    #>
+
+
+    What is the <boldinternational importancebold> of Rio de Janeiro
+
+    
 ================
 Test pando
 ================
-Test chicky
+  Test chicky
+  ----------------
+    yo
+
+    im chicky
+
+
+    yo
+
+    im pando
 ----------------
-yo
+  Test froggi
+  ----------------
+    yo
 
-im chicky
-
-
-yo
-
-im pando
-----------------
-Test froggi
-----------------
-yo
-
-im froggi
+    im froggi
 
 
-yo
+    yo
 
-im pando
+    im pando

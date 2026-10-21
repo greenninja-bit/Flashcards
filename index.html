@@ -4,10 +4,11 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <label class="dark">Dark Mode: <input type="checkbox" id="dark" checked onclick="document.body.classList.toggle('light')"></label>
   <div class="container">
     <div class="button-container">
       <select id="topic-name" class="select"></select>
-      <select id="cards-name" class="select"></select>
+      <select id="cards-name" class="select" size="1" multiple></select>
     </div>
     <div class="card-container" id="card-container">
       <p id="card-text" class="card-text"></p>
