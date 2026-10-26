@@ -26,7 +26,7 @@ Biology
 
     How does carbon in the atmosphere enter the food chains?
 
-    Via <boldphotosynthesisbold>
+    Via <photosynthesis>
 
 
     How can carbon compounds in plants end up back in the air? Describe as many ways as you can
@@ -43,17 +43,17 @@ Biology
 
     Nitrogen fixation is the process of turning the nitrogen in the air into nitrogen compounds in the soil
     It can happen by:
-    <**<boldLightningbold> -> can make nitrogen in the air react with oxygen in the air to give nitrates
-    *><boldNitrogen-fixing bacteriabold> in the roots and soil**>
+    <**<Lightning> -> can make nitrogen in the air react with oxygen in the air to give nitrates
+    *><Nitrogen-fixing bacteria> in the roots and soil**>
 
 
 
     Describe the roles of four different types of bacteria in the nitrogen cycle
 
-    <**<boldDecomposersbold> -> decompose proteins and urea and turn them into ammonia, which goes on to form ammonium ions
-    *><boldNitrifying bacteriabold> -> turn ammonium ions in decaying matter into nitrates
-    *><boldNitrogen-fixing bacteriabold> -> turn atmospheric N2 into nitrogen compounds that plants can use
-    *><boldDenitrifying bacteriabold> -> turn nitrates back into N2 gas BADDDD D:< found in waterlogged soils pandoooooooo**>
+    <**<Decomposers> -> decompose proteins and urea and turn them into ammonia, which goes on to form ammonium ions
+    *><Nitrifying bacteria> -> turn ammonium ions in decaying matter into nitrates
+    *><Nitrogen-fixing bacteria> -> turn atmospheric N2 into nitrogen compounds that plants can use
+    *><Denitrifying bacteria> -> turn nitrates back into N2 gas BADDDD D:< found in waterlogged soils pandoooooooo**>
 
 
 
@@ -85,15 +85,15 @@ Biology
 
     What is meant by the terms 'population', 'community' and 'ecosystem'
 
-    <**<boldPopulationbold> -> All the organisms of one species in a habitat
+    <**<Population> -> All the organisms of one species in a habitat
     *>Community -> All the organisms (different species)
     *>Ecosystem -> A community of organisms along with all the non-living (abiotic) conditions**>
 
 
     Give four resources that plants need in order to survive and reproduce. Do the same for animals.
 
-    <boldPlantsbold> -> light, space, water and minerals (nutrients)
-    <boldAnimalsbold> -> space (territory), food, water and mates
+    <Plants> -> light, space, water and minerals (nutrients)
+    <Animals> -> space (territory), food, water and mates
 
 
     List four abiotic factors and give examples of how they might affect communities in ecosystems. Do the same for 2 biotic factors.
@@ -127,9 +127,9 @@ Biology
 
     In the food chain show in the previous card, suggest what effects a decline in the population of frogs might have on the rest of the food chain.
 
-    <**<boldGrasshopperbold> population -> <boldIncreasebold>
-    *><boldGrassbold> population -> <boldDecreasebold>
-    *><boldSnakebold> population -> <boldDecreasebold>**>
+    <**<Grasshopper> population -> <Increase>
+    *><Grass> population -> <Decrease>
+    *><Snake> population -> <Decrease>**>
 
 
 
@@ -147,9 +147,9 @@ Biology
 
     How to plants make glucose? Give two ways it then gets used.
 
-    Plants make glucose via <boldphotosynthesisbold> and use it to:
-    <**<boldMake food (glucose)bold>
-    *><boldMake biological molecules (e.g. cellulose)bold>**>
+    Plants make glucose via <photosynthesis> and use it to:
+    <**<Make food (glucose)>
+    *><Make biological molecules (e.g. cellulose)>**>
 
 
 
@@ -157,8 +157,8 @@ Biology
 
     <**Animals use some of the biomass they consume for respiration
     *>Biomass is also lost from the food chain through:
-    <**<boldExcretionbold> -> getting rid of undigesteed food (i.e. animal's faeces)
-    *><boldEgestionbold> -> getting rid of waste products from chemical reactions in the body (e.g. sweating, urinating, breathing out)**>
+    <**<Excretion> -> getting rid of undigesteed food (i.e. animal's faeces)
+    *><Egestion> -> getting rid of waste products from chemical reactions in the body (e.g. sweating, urinating, breathing out)**>
     **>
 
 
@@ -181,27 +181,85 @@ Geography
     Brazil’s second-most populated city
     <**6.5 million people in the city
     *>12.5 million in the urban area**>
-    In <boldsoutheast Brazilbold>, on the <boldAtlantic coastbold>, around <boldGuanabara Baybold>
+    In <southeast Brazil>, on the <Atlantic coast>, around <Guanabara Bay>
 
 
-    What is the <boldregional importancebold> of Rio de Janeiro
+    What is the <regional importance> of Rio de Janeiro
 
-    <**Provides essential services such as <boldschools, hospitals and universitiesbold>
-    *>A <boldculturalbold> and <boldtransport hubbold> -> <boldinternational airportbold> and <bolddock facilitating tradebold>**>
+    <**Provides essential services such as <schools, hospitals and universities>
+    *>A <cultural> and <transport hub> -> <international airport> and <dock facilitating trade>**>
 
 
 
-    What is the <boldnational importancebold> of Rio de Janeiro
+    What is the <national importance> of Rio de Janeiro
 
     <**Headquarters of Brazils largest companies (mining, oil, telocommunications)
-    *>Leading centre for industries such as <boldclothingbold>, <boldprocessed foodbold> and <boldpharmaceuticalsbold>
-    *><bold5%bold> of Brazil's GDP**>
+    *>Leading centre for industries such as <clothing>, <processed food> and <pharmaceuticals>
+    *><5%> of Brazil's GDP**>
 
 
 
-    What is the <boldinternational importancebold> of Rio de Janeiro
+    What is the <international importance> of Rio de Janeiro
 
-    
+  ----------------
+  Section A: The Challenge of Natural Hazards
+  ----------------
+  What is a <natural hazard>
+
+  A natural process that could cause death, disruption or injury to humans, or could destroy property of posessions
+
+
+  How does the <magnitude> of a hazard affect the <risk> to people?
+
+  More severe natural hazards tend to have the greatest effects
+
+
+  What's the difference between a <primary> and <secondary> effect?
+  Give an <example> for each
+
+  Primary effects - immediate impacts cause by the hazard itself
+  <**Building and roads destroyed by earthquakes volcanic eruptions or tropical storms**>---
+  Secondary effects happen later on - result of primary effects
+  <**Aids and emergency vehicles can't get through because of blocked roads or bridges - can cause more death**>
+
+  Give one <immediate> and one <long-term> response to a natural hazard
+
+  Immediate response:
+  <**Evacuate people**>
+  Long term response:
+  <**Repair homes or rehouse people that have lost their homes**>
+
+
+  Name the type of plate margin where two plates are moving <towards> each other
+
+  Destructive
+
+  Name the type of plate margin where two plates are moving <sideways past> each other
+
+  Conservative
+
+
+  Why do volcanoes form at destructive plate margins?
+
+  <**The <denser oceanic plate subducts> into the mantle and <melts>
+  *>A <pool of magma> forms, which <rises through cracks> in the crust called <vents>
+  *>The magma (lava when it reaches the surface) erupts, forming a volcano**>
+
+
+  At which types of plate margins can earthquakes occur?
+
+  <**<Destructive margins> - tension builds when one plate gets stuck as it moves past the other
+  *><Constructive margins> - tension builds along cracks in the plates as they move away from each other
+  *><Conservative margins> - tension builds up when plates that are grinding past each other get stuck
+  
+
+  Why do people live in areas at risk from tectonic hazards?
+
+  <**May not be able to afford to moves
+  *>May not know the risks
+  *>They've always lived there moving means leaving their jobs or families
+  *>The risk is minimum in wealthier countries
+  *>
 ================
 Test pando
 ================

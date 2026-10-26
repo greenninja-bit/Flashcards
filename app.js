@@ -194,24 +194,26 @@ function fetchData (filename) {
             .map(x => x
               .split("\n\n")
                 .map(x => x
-                  .replaceAll("<bold", "<b>")
-                  .replaceAll("bold>", "</b>")
                   //.replaceAll("<#", "<ul>")
-                  .replaceAll("<**", "<ul><li>")
-                  .replaceAll("**>", "</li></ul>")
+                  .replaceAll("<**", "TAGulENDTAGTAGliENDTAG")
+                  .replaceAll("**>", "TAG/liENDTAGTAG/ulENDTAG")
                   //.replaceAll("<*", "<li>")
                   //.replaceAll("*>\n", "</li>")
-                  .replaceAll("\n*>", "</li><li>")
+                  .replaceAll("\n*>", "TAG/liENDTAGTAGliENDTAG")
                   //.replaceAll("#>", "</ul>")
-                  .replaceAll("<f", "<math display=block><mi>")
-                  .replaceAll("===", " = </mi><mfrac><mi>")
-                  .replaceAll("///", "</mi><mi>")
-                  .replaceAll("f>", "</mi></mfrac></math>")
-                  .replaceAll("/img", "<img style='max-width:300px' src=")
-                  .replaceAll("img/", "&quot>")
+                  .replaceAll("<f", "TAGmath display=blockENDTAGTAGmiENDTAG")
+                  .replaceAll("===", " = TAG/miENDTAGTAGmfracENDTAGTAGmiENDTAG")
+                  .replaceAll("///", "TAG/miENDTAGTAGmiENDTAG")
+                  .replaceAll("f>", "TAG/miENDTAGTAG/mfracENDTAGTAG/mathENDTAG")
+                  .replaceAll("/img", "TAGimg style='max-width:300px' src=")
+                  .replaceAll("img/", "&quotENDTAG")
                   .replaceAll("'/'", "/")
                   .replaceAll("---\n", "")
-                  .replaceAll("\n", "<br>")));
+                  .replaceAll("\n", "TAGbrENDTAG")
+                  .replaceAll("<", "TAGbENDTAG")
+                  .replaceAll(">", "TAG/bENDTAG")
+                  .replaceAll("ENDTAG", ">")
+                  .replaceAll("TAG", "<")));
             
             console.log(setObject[sets[j]
               .replaceAll(" ", "_")])
