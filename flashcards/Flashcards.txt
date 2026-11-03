@@ -7,7 +7,7 @@ Welcome!
     Enjoy! :D
 
 
-    Cool Home screen right?
+    Cool home screen right?
 
     ...right?
 ================
@@ -259,7 +259,71 @@ Geography
   *>May not know the risks
   *>They've always lived there moving means leaving their jobs or families
   *>The risk is minimum in wealthier countries
-  *>
+  *>They are confident the government will support them
+  *>The minerals from volcanic ash makes volcanic soil very fertile, attracting farmers
+  *>Volcanoes are tourist attractions, so lots of people live nearby to work in the tourist industry**>
+
+
+  Briefly describe the 4 management strategies that can help reduce the effects of tectonic hazards
+
+  <**Monitoring -> recording physical changes to help forecast when and where a natural hazard might strike
+  *>Planning - actions taken to enable communites to respond to, and recover from, natural disasters
+  *>Prediction -> attempting to forecast when and where a natural hazard will strike, based on current knowledge
+  *>Protection -> actions taken before a hazard strikes to reduce it's impact
+
+
+  How does global atmpospheric circulation lead to high and low pressure belts?
+
+  The sun warms the Earth at the equator, causing air to rise, creating a low pressure belt
+  Cool air sinks, creating a high pressure belt
+
+
+  Describe the distribution of tropical storms
+  
+  Tropical storms develop between 5 and 30° north and south of the equator
+
+
+  What conditions are required for a tropical storm to develop?
+  
+  <**sea temperature is 27*C or higher
+  <**wind shear (the difference in wind speed) between higher and lower parts of the atmosphere is low**>
+  
+  
+  Describe two characteristics of the eye of a tropical storm
+  How might climate change affect tropical storms?
+  How can a city be protected against a tropical storm?
+  List the types of weather hazard that can be experienced in the UK
+  Give two pieces of evidence for the weather becoming more extreme in the UK
+  What is the Quaternary period?
+  Give four sources of evidence for climate change over the Quaternary period
+  What natural factors can cause climate change?
+  What is the greenhouse effect?
+  Give four ways human activites can increase the conecntration of greenhouse gases in the atmosphere
+  Give one effect of climate change on the environment
+  How might alternative energy production reduce the causes of climate change?
+
+
+
+  ----------------
+  Human enquiry: To investigate the environmental impacts of tourism in Hunstanton
+  ----------------
+    Why the area chosen was appropriate for the enquiry undertaken
+    What the specific risks for that enquiry were and how they were reduced
+    What results you expected to find for each investigation before you went and why
+    What method(s) you used to collect data and whether there were any issues with these
+    What your results were and how far they matched what you expected to see
+    How you presented your data and why each method chosen. The strengths and weaknesses of the presentation methods
+    What changes you would make to your data collection if you were to do it again and why
+  ----------------
+  Physical Enquiry: To investigate how sand dunes change as you move inland in Hunstanton
+  ----------------
+    Why the area chosen was appropriate for the enquiry undertaken
+    What the specific risks for that enquiry were and how they were reduced
+    What results you expected to find for each investigation before you went and why
+    What method(s) you used to collect data and whether there were any issues with these
+    What your results were and how far they matched what you expected to see
+    How you presented your data and why each method chosen. The strengths and weaknesses of the presentation methods
+    What changes you would make to your data collection if you were to do it again and why
 ================
 Test pando
 ================
