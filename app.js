@@ -59,10 +59,6 @@ function AddListeners (card, back_button, forward_button) {
     {
       card.onclick();
     }
-    /*if (event.key == "Enter")
-    {
-      enter_button.onclick();
-    }*/
   })
 }
 
@@ -101,28 +97,13 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
     SetText(text, question, current_data, current_index);
     number.innerText = `${current_index+1}/${current_data.length}`
   };
+  back_button.onmousedown = event => event.preventDefault();
+  forward_button.onmousedown = event => event.preventDefault();
+  document.getElementById("dark").onmousedown = event => event.preventDefault();
   topic_navigation.onchange = () => {
     console.log(topic_navigation.value)
     AddOptions(data, topic_navigation, set_navigation, topic_navigation.value, "");
   }
-  /*enter_button.onclick = () => {
-    current_topic = topic_navigation.value;
-    current_set = set_navigation.value;
-    current_index = 0;
-    question = true;
-    current_data = data[current_topic][current_set];
-    card.classList.remove("answer");
-    text.classList.remove("text-answer");
-    
-    text.innerHTML = current_data[current_index][0];
-    number.innerText = `1/${current_data.length}`;
-
-    back_button.disabled = true;
-    if (current_index == current_data.length-1) { forward_button.disabled = true; }
-    else { forward_button.disabled = false; }
-
-    AddOptions(data, topic_navigation, set_navigation, current_topic, current_set);
-  };*/
   set_navigation.onchange = () => {
     current_topic = topic_navigation.value;
     //current_set = set_navigation.value;
@@ -154,9 +135,7 @@ function OnClickSetup(data, text, number, card, back_button, forward_button, top
 function AddOptions(data, topic_navigation, set_navigation, current_topic, current_set, first=true) {
   if (first)
   {
-    //topic_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
     topic_navigation.innerHTML = "";
-    //set_navigation.innerHTML = "<option disabled selected value=&quotnone&quot></option>"
     set_navigation.innerHTML = "";
     set_navigation.value = null;
   }
