@@ -172,6 +172,25 @@ Biology
 
     <fefficiecy===biomass available to the next level///biomass that was available to the previous levelf>
 ================
+Computer Science
+================
+  1. Systems Architecture
+  ----------------
+  What does the CPU stand for?
+
+  Central Processing Unit
+
+
+  What is the purpose of the CPU?
+
+  To <process data and instructions> by constantly repeating the <fetch decode execute cycle>
+
+
+  What are the 4 main components of the CPU?
+
+  The control unit
+
+================
 Geography
 ================
   Rio de Janeiro
