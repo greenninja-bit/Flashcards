@@ -31,14 +31,21 @@ function App (data) {
 
 function SetText(text, question, current_data, current_index) {
   text.innerHTML = question ? current_data[current_index][0] : current_data[current_index][1];
+
+
   console.log((question ? current_data[current_index][0] : current_data[current_index][1]));
-  console.log((question ? current_data[current_index][0] : current_data[current_index][1]).includes("<li>"));
+  console.log((question ? current_data[current_index][0] : current_data[current_index][1]).length < 100 && !((question ? current_data[current_index][0] : current_data[current_index][1]).includes("<li>") || (question ? current_data[current_index][0] : current_data[current_index][1]).includes("<math>")));
   console.log((question ? current_data[current_index][0] : current_data[current_index][1]).length < 100 && !(question ? current_data[current_index][0] : current_data[current_index][1]).includes("<li>"));
+
+
   if ((question ? current_data[current_index][0] : current_data[current_index][1]).includes("</math>")) {text.style.width = "fit-content";}
   else if ((question ? current_data[current_index][0] : current_data[current_index][1]).length > 350) {text.style.width = "95%";}
   else if ((question ? current_data[current_index][0] : current_data[current_index][1]).length > 250) {text.style.width = "90%";}
   else {text.style.width = "80%";}
   if ((question ? current_data[current_index][0] : current_data[current_index][1]).length < 100 && !((question ? current_data[current_index][0] : current_data[current_index][1]).includes("<li>") || (question ? current_data[current_index][0] : current_data[current_index][1]).includes("<math>"))) {console.log("triggered"); text.style.textAlign = "center"; }
+  else if ((question ? current_data[current_index][0] : current_data[current_index][1]).includes("<li>") || (question ? current_data[current_index][0] : current_data[current_index][1]).includes("<math>")){
+    text.style.textAlign = "left";
+  }
   else {
     text.style.textAlign = "";
   }
@@ -186,10 +193,10 @@ function fetchData (filename) {
                   //.replaceAll("*>\n", "</li>")
                   .replaceAll("\n*>", "TAG/liENDTAGTAGliENDTAG")
                   //.replaceAll("#>", "</ul>")
-                  .replaceAll("<f", "TAGmath display=blockENDTAGTAGmiENDTAG")
+                  .replaceAll("<ff", "TAGmath display=blockENDTAGTAGmiENDTAG")
                   .replaceAll("===", " = TAG/miENDTAGTAGmfracENDTAGTAGmiENDTAG")
                   .replaceAll("///", "TAG/miENDTAGTAGmiENDTAG")
-                  .replaceAll("f>", "TAG/miENDTAGTAG/mfracENDTAGTAG/mathENDTAG")
+                  .replaceAll("ff>", "TAG/miENDTAGTAG/mfracENDTAGTAG/mathENDTAG")
                   .replaceAll("/img", "TAGimg style='max-width:300px' src=")
                   .replaceAll("img/", "&quotENDTAG")
                   .replaceAll("'/'", "/")

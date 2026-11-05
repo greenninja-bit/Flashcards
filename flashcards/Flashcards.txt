@@ -13,6 +13,61 @@ Welcome!
 ================
 Biology
 ================
+  B1
+  ----------------
+    Give 4 sub-cellular structures found in both plant and animal cells and their functions
+
+    <**Cell membrane -> Holds the cell together, and controls what enters and leaves the cell
+    *>Nucleus -> Contains the DNA of the Cell
+    *>Cytoplasm -> where most chemical reactions take places
+    *>Ribosomes -> Where protein synthesis takes place**>
+
+
+    Give 2 sub-cellular structures found in plant cells but not animal cells and their functions
+
+    <**Chloroplasts -> Where photosynthesis occurs
+    *>Cell Wall -> Keeps the cell rigid**>
+
+
+    Describe two sub-cellular structures that are present in prokaryotic cells but not eukaryotic cells
+
+    <**Chromosomal DNA -> long loops of DNA not enclosed in the nucleus that contain the genetic informatio of the cell
+    *>Plasmids -> short rings of DNA that can be exchanged between bacteria**>
+
+    
+    How have electrorn microscopes been able to increase or understanding of sub-cellular structures?
+
+    They have a higher magnification, allowing us to see smaller things in more detail, allowing us to have a much greater understanding of sub-cellular structures
+
+
+    Outline how you would prepare a sample on a slide
+
+    <**Take a clean slide and use a pipette to put one drop of water in the middle (to make your specimen stick)
+    *>Use tweezers to place your specimen on the slide
+    *>Add a drop of stain if needed
+    *>Carefully lower the cover slip onto the slide by placing at one end, holding it at an angle with a mounted needle
+    *>Press it down gently with the needle so no air bubbles are trapped under it**>
+
+
+    How would you use a microscope to view a slide
+
+    <**Clip the specimen to the stage
+    *>Start on the lowest powered objective lens
+    *>Use the coarse adjustment knob to move the stage just below the objective lens
+    *>Look down the eyepiece, then move the stage downwards until the specimen is just about in focus
+    *>Then adjust the focus with the fine adjustment knob, until you get a clear view of the specimen
+    *>If you require a greater magnification, swap to a higher-powered objective lens and refocus**>
+
+
+    What formula is used to calculate the total magnification from the magnification of microscope lenses?
+
+    Total magnification = Eyepiece magnification x Objective magnification
+
+
+    How can you calculate the magnification of an image if you don't know which magnification of microscope lenses?
+
+    Magnification = Image size / Actual size
+  ----------------
   B4
   ----------------
     Name four elements that living things take in from the environment
@@ -170,26 +225,52 @@ Biology
 
     Give the formula for calculating the efficiency of biomass transfer
 
-    <fefficiecy===biomass available to the next level///biomass that was available to the previous levelf>
+    <ffefficiecy===biomass available to the next level///biomass that was available to the previous levelff>
 ================
 Computer Science
 ================
   1. Systems Architecture
   ----------------
-  What does the CPU stand for?
+    What does the CPU stand for?
 
-  Central Processing Unit
-
-
-  What is the purpose of the CPU?
-
-  To <process data and instructions> by constantly repeating the <fetch decode execute cycle>
+    Central Processing Unit
 
 
-  What are the 4 main components of the CPU?
+    What is the purpose of the CPU?
 
-  The control unit
+    To <process data and instructions> by constantly repeating the <---
+    fetch decode execute cycle>
 
+
+    What are the 4 main components of the CPU?
+
+    <**The <Control Unit (CU)>
+    *>The <Arithmatic Logic Unit (ALU)>
+    *>The <Registers>
+    *><Cache Memory>**>
+
+
+    Describe the purpose of:---
+    <**The Control Unit
+    *>The ALU
+    *>The Registers
+    *>Cache memory**>
+
+    <**Controls hardware, coordinates flow of data and decodes instructions
+    *>Performs arithmetic and logical operations
+    *>Temporary storage locations for one piece of data, instruction or address
+    *>Frequently accessed instructions or data**>
+
+
+    Describe the key Feature of Von Neumann Architecture
+
+    Stores both instructions and data in the same memory (the RAM)
+
+
+    How is an instruction different to data?
+
+    Instruction is the action to perform
+    Data is the value to be used
 ================
 Geography
 ================

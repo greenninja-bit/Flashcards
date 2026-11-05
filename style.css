@@ -1,7 +1,7 @@
 body {
   margin:0px;
   padding:0px;
-  font-family: sans-serif;
+  font-family: Verdana, Helvetica, serif;
   --bg-color: rgb(50, 50, 50);
   background-color: var(--bg-color);
   --text-color: white;
@@ -17,25 +17,36 @@ body {
   position: absolute;
   left: 50px;
   top: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+#dark {
+  width: 3vh;
+  height: 3vh;
+  margin: 0;
+  margin-left: 1vw;
 }
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 96vh;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: center;
 }
 .card-container {
-  height: 70vh;
+  height: 76vh;
   width: 70vw;
   border: 1px solid black;
   background-color: yellow;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 5px;
-  margin-top: 20px;
+  border-radius: 4vh;
+  margin-top: 2vh;
 }
 .answer {
   background-color: lime;
@@ -46,6 +57,8 @@ body {
   width: 80%;
   height: fit-content;
   margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
   font-size: 2em;
   text-align: center;
 }
@@ -53,18 +66,18 @@ body {
   text-align: left;
 }
 .button-container {
-  width: 500px;
-  height: 50px;
+  width: 100vw;
+  height: 7vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: 20px;
+  margin-top: 2vh;
 }
 .button {
-  height: 40px;
-  width: 40px;
+  height: 6vh;
+  width: 6vh;
   font-size: 20px;
   background-color: rgb(230, 230, 230);
   border: 1px solid black;
@@ -78,14 +91,31 @@ body {
 .button:active {
   background-color: rgb(190, 190, 190);
 }
+#card-number {
+  font-size: 1.5em;
+}
 .select {
   background-color: inherit;
   color: inherit;
-  height: 40px;
-  width: 150px;
-  font-size: 15px;
+  height: 7vh;
+  width: 18vw;
+  font-size: 1.5rem;
 }
 .select .option {
+  font-size: 1em;
+  overflow:hidden;
   background-color: var(--bg-color);
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.select .option::checkmark {
+  font-size: 1em;
+  display: inline-flex;
+  align-items: center;
+  align-self: center;
 }
